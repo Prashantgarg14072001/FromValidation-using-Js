@@ -1,0 +1,38 @@
+.outer{
+    min-height: 750px;
+    width: 100%;
+    background: radial-gradient(#e66465, #9198e5);
+    position: relative;
+}
+.outer, h1{
+    padding-top: .5em;
+    padding-bottom: 1em;
+}
+.inputFeild{
+    position: absolute;
+    left: 36.5%;
+    height: 30px;
+    width: 250px;
+    top: 12em;
+    border-radius: 30px;
+}
+.fontStyle{
+    position: absolute;
+    color: #333;
+    background-color: #e4d7d7;
+    padding-top: 11px;
+    height: 38px;
+    border-right: 1px solid #cccccc;
+    text-align: center;
+    width: 50px;
+}
+.myform{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.btn{
+    height: 50px;
+    width: 180px;
+    color: #FFFFFF;
+}
